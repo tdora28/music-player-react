@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { MusicContext } from '../context/MusicContext';
+import { MusicContext } from '../contexts/MusicContext';
 
 const useMusicPlayer = () => {
   const [state, setState] = useContext(MusicContext);
